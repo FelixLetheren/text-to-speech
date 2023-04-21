@@ -46,6 +46,7 @@ import Capacitor
             }
         }
 
+        synthesizer.mixToTelephonyUplink = true
         synthesizer.speak(utterance)
     }
 
